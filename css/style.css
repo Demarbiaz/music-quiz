@@ -1,6 +1,41 @@
-.selected {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
 }
-  
+
+h1 {
+    color: #222;
+    font-weight: bold;
+}
+
+.question-block {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.answer-btn {
+    background-color: #eeeeee;
+    margin: 5px;
+    text-align: left;
+}
+
+.answer-btn:hover {
+    background-color: #dddddd;
+}
+
+.answer-btn.selected {
+    background-color: #222;
+    color: white;
+}
+
+#show-results {
+    background-color: #222;
+    border: none;
+}
+
+#result-container {
+    font-weight: bold;
+    padding: 15px;
+}
